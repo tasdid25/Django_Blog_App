@@ -63,8 +63,38 @@ Build a blog platform where users can:
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
 ```bash
+# 1. Clone the repository
 git clone https://github.com/your-username/django-blog-site.git
 cd django-blog-site
+
+# 2. Create and activate a virtual environment
+python -m venv venv
+venv\Scripts\Activate.ps1   # On Windows PowerShell
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Apply database migrations
+python manage.py makemigrations
+python manage.py migrate
+
+# 5. Create a superuser
+python manage.py createsuperuser
+
+# 6. Run the development server
+python manage.py runserver
+
+# Visit the site
+# http://127.0.0.1:8000/
 ```
+
+myblog/
+│
+├── blog/                   # Blog app (posts, views, models)
+├── users/                  # User registration and profiles
+├── templates/              # HTML templates
+├── static/                 # Static files (CSS, JS)
+├── media/                  # Uploaded images/files
+├── manage.py
+└── requirements.txt
