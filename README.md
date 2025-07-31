@@ -89,4 +89,4 @@ python manage.py runserver
 # http://127.0.0.1:8000/
 ```
 
-<pre> ```plaintext myblog/ │ ├── blog/ # Blog app (posts, views, models) ├── users/ # User registration and profiles ├── templates/ # HTML templates ├── static/ # Static files (CSS, JS) ├── media/ # Uploaded images/files ├── manage.py # Django project entry point └── requirements.txt # Project dependencies ``` </pre>
+
