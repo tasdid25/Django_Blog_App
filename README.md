@@ -55,7 +55,7 @@ Build a blog platform where users can:
 
 | Layer       | Tools Used                      |
 |-------------|----------------------------------|
-| Frontend    | HTML, CSS, Bootstrap             |
+| Frontend    | HTML, Bootstrap             |
 | Backend     | Django (Views, Models, Templates)|
 | Database    | SQLite (default Django DB)       |
 
